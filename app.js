@@ -1,5 +1,6 @@
 function shortenToDate(longDate) {
-    // your code here
+    var myTruncatedString = longDate.slice(0, longDate.indexOf(','));
+    return myTruncatedString;
 }
 
 console.log(shortenToDate("Friday May 2, 9am")); // "Friday May 2"
